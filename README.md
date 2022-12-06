@@ -1,1 +1,2 @@
-# ProjetoFinal faz o calculo de pagamento dando o valor liquido do funcionario ja descontando Imposto de Renda e INSS.
+# ProjetoFinal 
+Faz o cálculo de pagamento dando o valor láquido do funcionário já descontando Imposto de Renda e INSS.
