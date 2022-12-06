@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title> Calculo Pagamento Líquido</title>
+    <script type="text/javascript" src="main.js"></script>
+    <link href="formulario.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <form onsubmit="executar(event)">
+        <div class="conteudo">
+            <h1>Calculo Pagamento Líquido</h1>
+            <div class="conteudo-input">
+                <label for="valorComissao" class="label-valor">Valor Comissão:</label>
+                <input type="number" step="0.01" class="input-valor" id="valorComissao" />
+            </div>
+            <div class="conteudo-input">
+                <label for="valorEcommerce" class="label-valor">Valor E-commerce:</label>
+                <input type="number" step="0.01" id="valorEcommerce" class="valorComissaoCss input-valor" />
+            </div>
+            <div class="conteudo-input">
+                <label for="valorComissaoRepresentante" class="label-valor">Valor Comissão Representante:</label>
+                <input type="number" step="0.01" id="valorComissaoRepresentante" class="input-valor" />
+            </div>
+            <div class="conteudo-input">
+                <label for="premiacao" class="label-valor">Premiação:</label>
+                <input type="number" step="0.01" id="premiacao" class="input-valor" />
+            </div>
+            <div class="conteudo-input">
+                <label for="valorBrutoPagamento" class="label-valor">Valor Salário Fixo:</label>
+                <input type="number" step="0.01" id="valorBrutoPagamento" class="input-valor" />
+            </div>
+            <div class="conteudo-input">
+                <label for="diasUteis" class="label-valor">Dias Úteis/Sábados:</label>
+                <input type="number" id="diasUteis" class="input-valor" />
+            </div>
+            <div class="conteudo-input">
+                <label for="domingosFeriados" class="label-valor">Domingos/Feriados:</label>
+                <input type="number" id="domingosFeriados" class="input-valor" />
+            </div>
+            <div class="botoes">
+                <input type="submit" value="SOMAR" class="botao" />
+                <button type="button" onclick="limpar()" class="botao">LIMPAR</button>
+            </div>
+            <div class="conteudo-input">
+                <label for="total" class="label-valor">Valor Pagamento Líquido:</label>
+                <input type="number" step="0.01" id="total" class="input-valor" />
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
