@@ -20,18 +20,8 @@ function executar(event) {
     const valorBrutoPagamento = parseFloat(valorBrutoPagamentoInput.value)
     const valorDias = parseFloat(valorDiasInput.value)
     const valorDomingos = parseFloat(valorDomingosInput.value)
-
-
-    console.log('valor da comissao :', valorComissao)
-    console.log('valor da comissao ecommerce :', valorComissaoEcommerce)
-    console.log('valor da comissao representante :', valorComissaoRepresentate)
-    console.log('valor da premiacao :', valorPremiacao)
-    console.log('valor bruto pagamento :', valorBrutoPagamento)
-    console.log('quantidade de dias :', valorDias)
-    console.log('quantidade de domingos :', valorDomingos)
-
     const valorTotalLiquido = totalLiquido(valorBrutoPagamento, valorComissao, valorComissaoEcommerce, valorComissaoRepresentate, valorPremiacao, valorDias, valorDomingos)
-    console.log('total liquido pag:', valorTotalLiquido)
+
 
     liquidoInput.value = valorTotalLiquido
 
