@@ -3,6 +3,7 @@ body {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
     background: #004b1f;
+    margin:0;
 }
 
 form {
