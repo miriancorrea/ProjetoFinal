@@ -106,5 +106,19 @@ function totalLiquido(valorBrutoPagamento, comissao, comissaoEcommerce, comissao
 
 function limpar() {
     const valorComissaoInput = document.getElementById('valorComissao')
-    valorComissao = valorComissaoInput.value = ''
+    valorComissaoInput.value = ''
+    const valorComissaoEcommerceInput = document.getElementsByClassName('valorComissaoCss')
+    valorComissaoEcommerceInput[0].value = ''
+    const valorComissaoRepresentanteInput = document.getElementById('valorComissaoRepresentante')
+    valorComissaoRepresentanteInput.value = ''
+    const valorPremiacaoInput = document.getElementById('premiacao')
+    valorPremiacaoInput.value = ''
+    const valorBrutoPagamentoInput = document.getElementById('valorBrutoPagamento')
+    valorBrutoPagamentoInput.value = ''
+    const valorDiasInput = document.getElementById('diasUteis')
+    valorDiasInput.value = ''
+    const valorDomingosInput = document.getElementById('domingosFeriados')
+    valorDomingosInput.value = ''
+    const liquidoInput = document.getElementById('total')
+    liquidoInput.value = ''
 }

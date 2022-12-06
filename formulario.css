@@ -81,3 +81,7 @@ form h1 {
     align-items: flex-start;
     width: 300px;
 }
+
+.valor-final{
+    cursor:not-allowed
+}
